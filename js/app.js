@@ -16,16 +16,16 @@
 // For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 // Hint: You will need to use Math.random()
 
-	// for (let i = 1; i <= 20; i++) {
-	// 	console.log("Love me, pet me! HSSSSSS!");
-		
-	// 		let catTalkArr = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
-	// 		function randomCatPhrase(arr) {
-	// 			if (arr[i] % 2 === 0) {
-	// 			console.log(Math.random(catTalkArr[i]));
-	// 			};
-	// 		};
-	// 	};
+/*let catTalkArr = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+
+	for (let i = 1; i <= 20; i++) {
+		console.log("Love me, pet me! HSSSSSS!");
+			function randomCatPhrase(arr) {
+				if (i % 2 === 0) {
+				console.log(Math.random(catTalkArr[i]));
+				};
+			};
+		};*/
 
 //  *** I CAN'T FIGURE OUT THE ABOVE, SO I'M MOVING ON. :( ****
 
@@ -50,22 +50,30 @@
 
 // Getting to Know You:
 	// Use the following arrays to answer the questions below (name, age, hometown):
-		const thom = ["Thom", 1000, "Christchurch"]
-		const karolin = ["Karolin", 16, "New York"]
-		const kristyn = ["Kristyn", 5, "Pittsburgh"]
-		const matt = ["Matt H", 186, "Philadelphia"]
+		// const thom = ["Thom", 1000, "Christchurch"]
+		// const karolin = ["Karolin", 16, "New York"]
+		// const kristyn = ["Kristyn", 5, "Pittsburgh"]
+		// const matt = ["Matt H", 186, "Philadelphia"]
 	// Matt H. decides that Thom. can't be named "Thom" anymore. Remove "Thom" from the thom array and replace it with "Gameboy".
-		thom[0] = "Gameboy";
-		console.log(thom);
+		// thom[0] = "Gameboy";
+		// console.log(thom);
 	// Karolin just had her birthday; change Karolin's array to reflect her being a year older.
-		karolin[1] = 17;
-		console.log(karolin);
+		// karolin[1] = 17;
+		// console.log(karolin);
 	// Change Matt H's hometown from Philadelphia to "Gotham City".
-		matt[2] = "Gotham City";
-		console.log(matt);
+		// matt[2] = "Gotham City";
+		// console.log(matt);
 	// Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
-		kristyn.pop();
-		kristyn.push("Brooklyn");
-		console.log(kristyn);
+		// kristyn.pop();
+		// kristyn.push("Brooklyn");
+		// console.log(kristyn);
 
+
+// Yell at the Ninja Turtles:
+	// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+	// Use a for loop to call toUpperCase() on each of them and print out the result.
+		let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+			for (i = 0; i < ninjaTurtles.length; i++) {
+				console.log(ninjaTurtles[i].toUpperCase());
+			}
 
