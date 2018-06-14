@@ -46,3 +46,26 @@
 // 		} else (i % 3 === 0 && i % 5 === 0) 
 // 			console.log("FizzBuzz");
 // 	};
+
+
+// Getting to Know You:
+	// Use the following arrays to answer the questions below (name, age, hometown):
+		const thom = ["Thom", 1000, "Christchurch"]
+		const karolin = ["Karolin", 16, "New York"]
+		const kristyn = ["Kristyn", 5, "Pittsburgh"]
+		const matt = ["Matt H", 186, "Philadelphia"]
+	// Matt H. decides that Thom. can't be named "Thom" anymore. Remove "Thom" from the thom array and replace it with "Gameboy".
+		thom[0] = "Gameboy";
+		console.log(thom);
+	// Karolin just had her birthday; change Karolin's array to reflect her being a year older.
+		karolin[1] = 17;
+		console.log(karolin);
+	// Change Matt H's hometown from Philadelphia to "Gotham City".
+		matt[2] = "Gotham City";
+		console.log(matt);
+	// Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
+		kristyn.pop();
+		kristyn.push("Brooklyn");
+		console.log(kristyn);
+
+
